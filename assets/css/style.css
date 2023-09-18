@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --fancy-font: 'Shrikhand', cursive;
+    --light-text-color: #fbf8fc;
+
+}
+
+body {
+    background-color: #cdc5cf;
+}
+
+/* <------------Navigation bar, banner, and header styling------------> */
+
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+    position: absolute;
+    z-index: 10;
+    font-size: 18px;
+    top: 70%;
+}
+
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 60px;
+    padding: 5px;
+    border: 2px solid var(--light-text-color);
+    border-radius: 1px;
+    z-index: 11;
+}
+
+
+.navbar ul li a {
+    text-decoration: none;
+    color: var(--light-text-color);
+
+}
+
+.banner {
+    position: relative;
+    top: 0;
+}
+
+.banner-image {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: auto;
+    z-index: 1;
+    
+}
+
+/* .headshot {
+    position: absolute;
+    max-width: 15%;
+    z-index: 5;
+    border-radius: 200px;
+    top: 35%;
+    left: 60%;
+} */
+
+.banner h1,
+.banner p {
+    position: absolute;
+    z-index: 5;
+
+}
+
+.banner h1 {
+    font-size: 60px;
+    color: var(--light-text-color);
+    top: 40%;
+    left: 35%;
+    text-align: center;
+    font-family: var(--fancy-font);
+}
+
+.banner h2 {
+    font-family: var(--fancy-font);
+    color: var(--light-text-color);
+    font-size: 50px;
+    padding: 8px 18px;
+    border: 2px solid var(--light-text-color);
+    border-radius: 200px;
+    display: inline;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+.banner p {
+    font-size: 20px;
+    color: var(--light-text-color);
+    top: 50%;
+    left: 39%;
+}
+
+/* <------------Main Section content styling------------> */
+
+.card {
+    position: relative;
+}
+
+.card p,
+.card ul {
+    max-width: 60%;
+    padding: 50px;
+    margin: 90px 50px;
+    /* background-color: rgb(225, 220, 227, 0.5); */
+    color: #fbf8fc;
+    margin-left: 20%;
+    border: 2px solid var(--light-text-color);
+    border-radius: 2px;
+    align-items: center;
+}
+
+.card h2 {
+    color: var(--light-text-color);
+    position: absolute;
+    width: 100%;
+    margin-left: -81%;
+    margin-top: 3%;
+    text-align: right;
+}
+
+.card ul li {
+    color: var(--light-text-color);
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    margin: 10px 30px;
+    padding: 5px;
+}
+
+.card ul li a {
+    text-decoration: none;
+    color: var(--light-text-color);
+}
+
+
+footer p {
+    color: var(--light-text-color);
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
+
