@@ -7,6 +7,9 @@
     <title>Alexis Menendez's Portfolio Page</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,38 +17,60 @@
         <div class="navbar">
             <ul>
                 <li>
-                    <a href="#about-me">ABOUT</a>
+                    <a class="nav-button" href="#about-me">ABOUT</a>
                 </li>
                 <li>
-                    <a href="#projects">PROJECTS</a>
+                    <a class="nav-button" href="#projects">PROJECTS</a>
                 </li>
                 <li>
-                    <a href="#contact">CONTACT</a>
+                    <a class="nav-button" href="#contact">CONTACT</a>
                 </li>
             </ul>
         </div>
         <div class="banner">
-            <img src="./assets/images/spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg" class="banner-image" alt="nature themed banner" />
+            <img src="./assets/images/crop-pastel-background-with-aesthetic-pink-sky.png" class="banner-image" alt="nature themed banner" />
+            <h1>Lexi Menendez</h1>
+            <p>Professional web developer in training</p>
+            <h2>L</h2>
+            <!-- <img src="./assets/images/1613406891901.jpg" class="headshot" alt="Professional picture of website creator" /> -->
         </div>
     </header>
 
-    <section class="about">
-        <h2>ABOUT</h2>
-        <p>This is the about me section</p>
-    </section>
+    <div class="main">
+        <section class="card" id="about">
+            <h2>ABOUT</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos ducimus minima placeat beatae iste maxime consequatur aperiam quis ratione accusamus sed magnam iure explicabo nulla magni fugiat, eaque saepe impedit!<br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus nesciunt rem, ut ipsum reiciendis corporis harum enim, dolor sint sequi maiores, quis eum molestiae architecto iste praesentium soluta saepe placeat.</p>
+        </section>
 
-    <section class="projects">
-        <h2>PROJECTS</h2>
-        <p>This is the projects section</p>
-    </section>
+        <section class="card" id="projects">
+            <h2>PROJECTS</h2>
+            <p>This is the projects section</p>
+        </section>
 
-    <section class="contact">
-        <h2>CONTACT</h2>
-        <p>This is the contact section</p>
-    </section>
+        <section class="card" id="contact">
+            <h2>CONTACT</h2>
+            <ul>
+                <li>
+                    <a class="contact-link" href="#phone-number">555-555-5555</a>
+                </li>
+                <li>
+                    <a class="contact-link" href="#email">lexi@bootcamp.com</a>
+                </li>
+                <li>
+                    <a class="contact-link" href="https://github.com/alexismenendez">GITHUB</a>
+                </li>
+                <li>
+                    <a class="contact-link" href="https://www.linkedin.com/in/alexis-menendez/">LINKEDIN</a>
+                </li>
+            </ul>
+        </section>
+    </div>
+
 
     <footer>
-        2023 Lexi Menendez
+        <p>© 2023 Lexi Menendez</p>
     </footer>
 </body>
 </html>
