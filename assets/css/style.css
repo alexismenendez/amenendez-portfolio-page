@@ -6,12 +6,14 @@
 
 :root {
     --fancy-font: 'Shrikhand', cursive;
+    --regular-font: 'Inclusive Sans', sans-serif;
     --light-text-color: #fbf8fc;
 
 }
 
 body {
     background-color: #cdc5cf;
+    font-family: var(--regular-font);
 }
 
 /* <------------Navigation bar, banner, and header styling------------> */
@@ -110,6 +112,7 @@ body {
 
 .card {
     position: relative;
+    
 }
 
 .card p,
@@ -146,8 +149,86 @@ body {
 .card ul li a {
     text-decoration: none;
     color: var(--light-text-color);
+
 }
 
+.project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 60%;
+    margin-left: 20%;
+    
+}
+
+
+.project-1 {
+    display: flex;
+    width: 48%;
+    height: 500px;
+    border: 2px solid var(--light-text-color);
+    margin: 1%;
+}
+
+.project-2-3 {
+    width: 48%;
+    margin: 1%;
+    height: 500px;
+    position: relative;
+}
+
+.project-2,
+.project-3 {
+    display: flex;
+    height: 48%;
+    border: 2px solid var(--light-text-color);
+    
+}
+
+.project-2 {
+    margin-bottom: 4%;
+}
+
+.project-1 {
+    position: relative;
+}
+
+.project-1 img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.project-2 img,
+.project-3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-1 a,
+.project-2-3 a {
+    position: absolute;
+    font-family: var(--regular-font);
+    color: var(--light-text-color);
+    /* background-color: rgb(255, 255, 255, 0.5); */
+    /* padding: 10px 70px 10px 5px; */
+    border: 2px solid var(--light-text-color);
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 40%;
+    text-decoration: none;
+}
+
+.project-1 a {
+    margin-top: 95%;
+}
+
+.project-2 a,
+.project-3 a {
+    margin-top: 40.5%;
+}
 
 footer p {
     color: var(--light-text-color);
@@ -156,6 +237,7 @@ footer p {
     padding: 10px;
     margin: 20px;
 }
+
 
 
 
