@@ -63,15 +63,6 @@ body {
     
 }
 
-/* .headshot {
-    position: absolute;
-    max-width: 15%;
-    z-index: 5;
-    border-radius: 200px;
-    top: 35%;
-    left: 60%;
-} */
-
 .banner h1,
 .banner p {
     position: absolute;
@@ -120,7 +111,6 @@ body {
     max-width: 60%;
     padding: 50px;
     margin: 90px 50px;
-    /* background-color: rgb(225, 220, 227, 0.5); */
     color: #fbf8fc;
     margin-left: 20%;
     border: 2px solid var(--light-text-color);
@@ -238,7 +228,87 @@ footer p {
     margin: 20px;
 }
 
+/* @media screen and (max-width: 992px) {
+    .project-container {
+      max-width: 60%;
+    }
+   
+  } */
+  
+  @media only screen and (max-width: 600px) {
+    .body {
+        max-width: 600px;
+    }
 
+    .navbar {
+        font-size: 12px;
+        top: 40%;
+    }
+
+    .banner h2 {
+        font-size: 30px;
+        padding: 8px 14px;
+
+    }
+
+    .banner h1 {
+        font-size: 40px;
+        left: 25%;
+    }
+    
+    .banner p {
+        font-size: 15px;
+        left: 30%;
+        top: 55%;
+    }
+
+    .banner,
+    .navbar {
+        max-width: 600px;
+    }
+    
+    .card h2 {
+        align-items: center;
+        margin-top: -4%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .project-container {
+        display: flex;
+        flex-wrap: flex;
+    }
+    
+    .project-1 {
+         width: 100%;
+         height: 250px;
+    }
+
+    .project-2-3 {
+        height: 250px;
+        width: 100%;        
+    }
+
+    .project-2,
+    .project-3 {
+        width: 100%;
+    }
+    
+    .project-2 {
+        margin-bottom: 2%;
+    }
+
+    .project-1 a {
+        margin-top: 60%;
+    }
+    .project-2 a,
+    .project-3 a {
+        margin-top: 22.5%;
+    }
+
+    
+   
+  }
 
 
 
