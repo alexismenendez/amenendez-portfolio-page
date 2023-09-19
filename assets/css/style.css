@@ -99,7 +99,7 @@ body {
     left: 39%;
 }
 
-/* <------------Main Section content styling------------> */
+/* <------------Main Section Cards content styling------------> */
 
 .card {
     position: relative;
@@ -141,6 +141,8 @@ body {
     color: var(--light-text-color);
 
 }
+
+/* <------------Project Card Styling------------> */
 
 .project-container {
     display: flex;
@@ -220,6 +222,9 @@ body {
     margin-top: 40.5%;
 }
 
+/* <------------Footer styling------------> */
+
+
 footer p {
     color: var(--light-text-color);
     text-align: center;
@@ -228,26 +233,22 @@ footer p {
     margin: 20px;
 }
 
-/* @media screen and (max-width: 992px) {
-    .project-container {
-      max-width: 60%;
-    }
-   
-  } */
-  
-  @media only screen and (max-width: 600px) {
+/* <------------Media Queries------------> */
+
+
+ @media only screen and (max-width: 600px) {
     .body {
         max-width: 600px;
     }
 
     .navbar {
         font-size: 12px;
-        top: 40%;
+        top: 30%;
     }
 
     .banner h2 {
         font-size: 30px;
-        padding: 8px 14px;
+        padding: 8px 12px;
 
     }
 
